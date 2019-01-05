@@ -1,0 +1,39 @@
+{
+  "name": "blogu",
+  "version": "1.0.0",
+  "description": "blog api built with node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wechuli/blogu.git"
+  },
+  "author": "Wechuli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wechuli/blogu/issues"
+  },
+  "homepage": "https://github.com/wechuli/blogu#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "joi": "^14.3.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "nodemailer": "^5.0.0",
+    "passport": "^0.4.0",
+    "passport-facebook-token": "^3.3.0",
+    "passport-google-plus-token": "^2.1.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.5"
+  }
+}
